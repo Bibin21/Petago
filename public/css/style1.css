@@ -26,7 +26,7 @@
   left: 0;
   width: 100%;
   padding: 15px 200px;
-  background: #4a98f7;
+  background: #02083E;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .nav,
@@ -107,16 +107,8 @@ a {
     right: 150px;
   }
 }
-@media screen and (max-width: 950px) {
-  .nav {
-    padding: 15px 50px;
-  }
-  .nav .search-box {
-    right: 100px;
-    max-width: 400px;
-  }
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 968px) {
   .nav .navOpenBtn,
   .nav .navCloseBtn {
     display: block;
@@ -187,12 +179,15 @@ a {
   background: radial-gradient(#d8e0f1,#ecf0f8);
   margin-top: 60px;
 }
+.destination{
+  margin-top: 60px;
+  display: none;
+}
 
 .pickup{
   margin-top: 60px;
   display: none;
 }
-
 
 .container {
   position: relative;
@@ -286,7 +281,7 @@ a {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: #4a98f7;
+  background: #02083E;
 }
 .form button:hover {
   background: rgb(88, 56, 250); 
@@ -371,4 +366,3 @@ ul{
   margin: 20px 0;
   width: 100%;
 }
-

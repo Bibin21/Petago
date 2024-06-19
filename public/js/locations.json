@@ -1,0 +1,204 @@
+{
+"locations":[
+{
+    "district":"Alappuzha",
+"locations":[
+"Aroor",
+"Charummoodu",
+"Chengannur",
+"Cherthala",
+"Haripad",
+"Kattanam",
+"kayamkulam",
+"Nooranad"
+]
+
+},
+{
+    "district":"Ernakulam",
+    "locations":[
+"Aluva",
+"Angamaly",
+"Edappally",
+"Ernakulam",
+"Ernakulam", 
+"Kalamasserry",
+"Kolanchery",
+"Kolenchery",
+"Koothattukulam",
+"Kundannur",
+"Maradu",
+"Muvattupuzha",
+"Muvattupuzha",
+"North Paravoor",
+"Palarivattom",
+"Perumbaavoor",
+"Puthenkurishu",
+"Thiruvankulam",
+"Thrippunithura",
+"Vyttila"
+    
+    ] 
+},
+{
+    "district":"Idukki",
+    "locations":[
+        "Thodupuzha"
+    ]
+},
+{
+
+    "district":"Kannur",
+    "locations":[
+        "Kalikkadavu",
+        "Mongam",
+        "Moryur",
+        "Payyannur",
+        "Taliparampa",
+        "Thalassery",
+        "Thana",
+        "Vellimadukunnu"
+    ]
+},
+{
+
+    "district":"Kasaragod",
+    "locations":[
+        "Cheruvathoor",
+        "Kalanad",
+        "Kozhikode bypass",
+        "Nileswaram",
+        "Uduma"
+    ]
+},
+{
+
+    "district":"Kollam",
+    "locations":[
+        "Ayoor",
+        "Chadayamangalam",
+        "Chavara",
+        "Karunagappally",
+        "Kollam",
+        "Kollam Bypass",
+        "Kottiyam",
+        "Ochira",
+        "Parippally",
+        "Valakom"
+    ]
+},
+{
+    "district":"Kottayam",
+    "locations":[
+"Changanacherry" ,
+"Chingavanam",
+"Ettumanoor" ,
+"Kottayam" ,
+"Kuruvilangad",
+"Pala"
+    
+    ]
+},
+{
+    "district":"Kozhikode",
+    "locations":[
+        "Koyilandy",
+        "Perinthalmanna",
+        "Ramanattukara",
+        "Thondayad",
+        "Vadakara"
+    ]
+},
+{
+    "district":"Malappuram",
+    "locations":[
+      "Angadippuram",
+"Edappal",
+"Kakkad",
+"Kondotty",
+"Kottakkal",
+"Kottakkal",
+"Kunnummal",
+"Kuttippuram",
+"Malappuram",
+"Manjery",
+"Munduparamp",
+"Puthanathani",
+"Valanchery",
+"Velliyampuram"
+    ]
+},
+{
+    "district":"Palakkad",
+    "locations":[
+    "Aryambavu",
+"Chandra Nagar ",
+"Kuzhalmannam",
+"Mannarkkad",
+"Olavakkodu",
+"Palakkad"
+    ]
+},
+{
+    "district":"Pathanamthitta",
+    "locations":[
+    "Adoor",
+"Enathu",
+"Panthalam",
+"Thiruvalla "
+    ]
+},
+{
+    "district":"Thiruvananthapuram",
+    "locations":[
+    "Aattingal",
+"Balaramapuram",
+"Kallambalam",
+"Karamana",
+"Kattakkada",
+"Kazhakkoottam",
+"Keshavadasapuram",
+"Kilimanoor",
+"Moolakkonam",
+"Neyyattinkara ",
+"Parashala",
+"Pattom",
+"Sreekaryam",
+"Thampanoor",
+"Thiruvananthapuram ",
+"Vattappara",
+"Vembayam",
+"Venjarammoodu"
+    ]
+},
+{
+    "district":"Thrissur",
+    "locations":[
+    "Alathur",
+"Chalakudy",
+"Kanjani",
+"Kecheri",
+"Kodakara",
+"Kodungallur",
+"Kulamavu",
+"Kunnamkulam",
+"Moonnurpeedika (Moonnuruppeedika)",
+"Ollur",
+"Paliyekkara",
+"Pookkunnam",
+"Sakthan Stand",
+"Thripprayar",
+"Thrissur",
+"Vadanappally"
+    ]
+},
+{
+    "district":"Wayanad",
+    "locations":[
+        "Vythiri"
+    ]
+}
+
+]
+
+}

@@ -34,7 +34,7 @@
     
                 </div>
              
-                <button type="submit" onclick="window.open('home.html','_self')">Sign in</button>
+                <button type="submit" >Sign in</button>
                 <div style="color: red; text-align:center;">
                 @if($errors->any())
                 {{ implode('', $errors->all(':message')) }}

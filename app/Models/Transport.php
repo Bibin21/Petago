@@ -17,35 +17,42 @@ class Transport extends Model
 
     protected $fillable = [
         'email',
-        'd_name',
-        'd_email',
-        'd_phone',
-        'd_addr',
-        'd_country',
-        'd_city',
-        'd_postal',
-        'd_region',
+        'type',
+        'category',
+        'breed',
+        'weight',
+        'height',
+        'age',
+        'quantity',
         'p_name',
         'p_phone',
+        'p_email',
         'p_addr',
-        'p_country',
-        'p_city',
-        'p_postal',
-        'p_region',
+        'p_addr2',
+        'p_state',
+        'p_district',
+        'p_location',
+        'd_name',
+        'd_phone',
+        'd_email',
+        'd_addr',
        'd_addr2',
-       'p_addr2',
+       'd_state',
+       'd_district',
+       'd_location',
+       
     ];
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
-    protected $hidden = [
-        'email',
+    // protected $hidden = [
+    //     'email',
    
-          'p_phone',
-          'd_email'
-    ];
+    //       'p_phone',
+    //       'd_email'
+    // ];
     /**
      *    /**
      * The attributes that should be cast to native types.
@@ -61,6 +68,6 @@ class Transport extends Model
      * @var array
      */
     protected $appends = [
-      
+  
     ];
 }
