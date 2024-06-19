@@ -1,5 +1,7 @@
 * text=auto eol=lf
 
+* text=auto
+*.JavaScript linguist-detectable=false
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
