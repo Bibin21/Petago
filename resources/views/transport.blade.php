@@ -30,11 +30,8 @@
 
         </ul>
   
-        <i class="uil uil-search search-icon" id="searchIcon"></i>
-        <div class="search-box">
-          <i class="uil uil-search search-icon"></i>
-          <input type="text" placeholder="Search here..." />
-        </div>
+          <!-- user profile -->
+          <i class="uil uil-user" style="color: aliceblue; font-size: 1.6rem;" ></i>
       </nav>
   </div>
   </head>

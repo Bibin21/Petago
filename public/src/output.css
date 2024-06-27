@@ -2620,8 +2620,8 @@ body{
 /* selland transport */
 
 .transport_sell_help .transport {
-  border-right: 2px solid black;
-  border-left: 2px solid black;
+  border-right: 2px solid rgba(0, 0, 0, 0.459);
+  border-left: 2px solid rgba(0, 0, 0, 0.459);
 }
 
 .transport_sell_help img{
@@ -2664,135 +2664,53 @@ body{
 /*section 1 facility*/
 
 .section1 {
-  align-items: center;
-  margin-top: 50px;
+
+ 
+ display: flex;
+   width: 70%;
+   margin: auto;
   justify-content: center;
+  padding-top: 100px;
+  align-items: start;
+  
+}
+.section1 h1{
+    
+    text-align: start;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #02083e;
 }
 
-.faci_head{
-  margin-top: 20px;
-  margin-bottom: -18px;
+.section1_head p{
+    font-size: 1.5rem;
+    color: grey;
+    margin-top: 49px;
+}
+.section1_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.faci_head h1{
-  border-bottom:2px solid grey ;
+.section1_img img{
+
+    width: auto;
+    height: auto;
 }
 
-.cards_e {
-  width: 130px;
-  height: 130px;
-  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
-  border-radius: 15px;
-  background-color: #f5eee5;
+.section1_btn{
+   margin-top: 60px;
+   width: 200px;
+   height: 50px;
+   background-color: #02083e;
+   border-radius: 10px;
+   font-size: 1.2rem;
+
 }
 
-.cards_e:hover{
-  box-shadow: rgba(14, 14, 14, 0.069) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-  height: 180px;
-  transition-duration: 500ms;
-}
 
-/*facility img*/
-
-.cards_e h1{
-  font-weight: 500;
-  font-size: 1rem;
-  color: rgb(106, 106, 106);
-  text-align: center;
-  margin-top: -5px;
-}
-
-.faci{
-  width: 100px;
-  height: 100px;
-  margin: 0px 20px 5px 16px ;
-}
-
-/*section 2 recomendation*/
-
-/* arrows */
-
-.section2{
-  padding: 20px;
-  color: #f0faff;
-}
-
-.section2_recom{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.recom_img{
-  display: flex;
-  overflow-x:scroll ;
-}
-
-.recom_img::-webkit-scrollbar{
-  display: none;
-}
-
-.recom_img div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap :10px;
-  animation: slideAnimation 12s initial;
-}
-
-.recom_img div img{
-  max-width: 550px;
-  height: 200px;
-}
-
-/*section 3 selling*/
-
-.section3 {
-  position: relative;
-  /* Add relative positioning to the section container */
-  margin-top: 80px;
-  margin-bottom: 20px;
-  padding-bottom: 30px;
-}
-
-.btn_section3 {
-  width: 120px;
-  height: 50px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  background: linear-gradient(white, white) padding-box,
-              linear-gradient(to right, darkblue, darkorchid) border-box;
-  border-radius: 50em;
-  border: 4px solid transparent;
-}
-
-.cards_sell{
-  max-width: 300px;
-  max-height: 340px;
-  border-top: 2px solid rgb(230, 230, 10);
-  gap:10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.106) 0px 25px 50px -12px;
-}
-
-.card_petsimg{
-  margin: 20px;
-  margin-bottom: 30px;
-}
-
-.prise_incard{
-  margin-left: -100px;
-  font-weight: 600;
-}
-
-.name_incard{
-  margin-left: -100;
-  margin-bottom: 50px;
-}
 
 .footer{
   background-color: #02083e;
@@ -2802,7 +2720,7 @@ body{
 
 /* responsive */
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1420px) {
   .nav {
     padding: 15px 100px;
   }
@@ -2815,6 +2733,11 @@ body{
     max-width: 260px;
     max-height: 290px;
   }
+  .section1{
+    width: 80%;
+    margin: auto;
+
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -2826,6 +2749,14 @@ body{
     right: 100px;
     max-width: 400px;
   }
+  .section1{
+    width: 80%;
+    flex-direction:column ;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -2905,9 +2836,10 @@ body{
     margin-top: 55px;
     height: auto;
   }
+  
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 668px) {
   .landing_page {
     margin-top: 60px;
     margin-bottom: 10px;
@@ -2919,12 +2851,13 @@ body{
   .transport_sell_help {
     -moz-column-gap:10;
          column-gap:10;
-    margin: 15px 7px  15px 7px;
+    margin: 15px 2px  15px 1px;
+    font-size: 0.5rem;
   }
 
   .transport_sell_help .transport {
-    border-right: 1px solid rgba(0, 0, 0, 0.643);
-    border-left: 1px solid rgba(0, 0, 0, 0.643);
+    border-right: 1px solid rgba(0, 0, 0, 0.397);
+    border-left: 1px solid rgba(0, 0, 0, 0.349);
   }
 
   .transport_sell_help img{
@@ -2935,7 +2868,7 @@ body{
 
   .transport_sell_help h1{
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   .transport .btn{
@@ -2980,12 +2913,23 @@ body{
     max-width: 550px;
     height: 150px;
   }
-
-  .section1{
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
+.section1{
+    padding-top:30px ;
+}
+.section1 h1{
+  font-size: 1.5rem;
+  
+}
+.section1 p{
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.section1_btn{
+    margin-top: 20px;
+  width:120px;
+  height: 35px;
+  font-size: 0.8rem;
+}
   .faci_head{
     margin-top: 13px;
     margin-bottom: -22px;
