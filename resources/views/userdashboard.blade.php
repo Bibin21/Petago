@@ -11,26 +11,34 @@
       <!-- Unicons CSS -->
       <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
       <script src="hscript.js" defer></script>
-     <div class="hed">
-      <nav class="navi">
-        <i class="uil uil-bars naviOpenBtn"></i>
-        <a href="#" class="logo">PetaGo</a>  
-        <ul class="navi-links">
-          <i class="uil uil-times naviCloseBtn"></i>
-          <li><a href="">1</a></li>
-          <li><a href="">2</a></li>
-	 <li><a href="">3</a></li>
-         <li><a href="">4</a></li>
-          <li><a href="login.php" name="logout">Logout</a></li>
-
-        </ul>
-      </nav>
-  </div>
+     <link rel="stylesheet" href="/Petago/public/src/output.css"> 
 
   </head>
  
   <body>
-
+  <div class="hd">
+        <nav class="nav font-bold">
+            <i class="uil uil-bars navOpenBtn"></i>
+            <a href="#" class="logo "><h3 class="  font-bold">PetaGo</h3></a>
+    
+            <ul class="nav-links">
+                <i class="uil uil-times navCloseBtn"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="./login">Login</a></li>
+            </ul>
+         <button>
+            <i class="uil uil-user" style="color: aliceblue; font-size: 1.6rem;" ></i>
+         </button>
+          
+            
+        </nav>
+    </div>
 
   <main class="table">
 

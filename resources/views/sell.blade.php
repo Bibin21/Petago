@@ -12,6 +12,9 @@
     
       <!-- Unicons CSS -->
       <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+     <link rel="stylesheet" href="/Petago/public/src/output.css"> 
+
      <script src="js/script.js" defer></script>
      <div class="hd">
       <nav class="nav">
@@ -29,11 +32,8 @@
 
         </ul>
   
-        <i class="uil uil-search search-icon" id="searchIcon"></i>
-        <div class="search-box">
-          <i class="uil uil-search search-icon"></i>
-          <input type="text" placeholder="Search here..." />
-        </div>
+           <!-- user profile -->
+           <i class="uil uil-user" style="color: aliceblue; font-size: 1.6rem;" ></i>
       </nav>
   </div>
 
