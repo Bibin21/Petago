@@ -12,6 +12,9 @@
     
       <!-- Unicons CSS -->
       <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+     <link rel="stylesheet" href="/Petago/public/src/output.css"> 
+
      <script src="js/script.js" defer></script>
      <div class="hd">
       <nav class="nav">

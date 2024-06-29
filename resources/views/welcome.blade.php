@@ -8,8 +8,8 @@
    <title>petaGo</title>
     <!-- Custom CSS File -->
 
-    <link rel="stylesheet" href="./output.css"/>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Petago/public/src/output.css/>
+  
     <!-- Unicons CSS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 
@@ -34,14 +34,15 @@
             <li><a href="#">Contact Us</a></li>
             <li><a href="./login">Login</a></li>
         </ul>
-   <!-- user profile -->
-        <i class="uil uil-user" style="color: aliceblue; font-size: 1.6rem;" ></i>
-        
+
+        <button>
+            <i class="uil uil-user" style="color: aliceblue; font-size: 1.6rem;" ></i>
+         </button>
     </nav>
 </div>
 
 <main class="main">
-    <div class="flex justify-center  bg-gray-200">
+    <div class="flex justify-center  bg-white">
     <section class="landing_page flex items-end justify-center ">
         <div class="slides-container">
             <img src="https://supertails.com/cdn/shop/files/19TH_Apr_web_5_891415b9-06d9-4cf1-a243-75ad1b7d9355_1600x.png?v=1713507086" alt="">
@@ -52,49 +53,18 @@
         </div>
       </section>
     </div>
-    <section class="transport_sell_help grid grid-cols-3 text-center mr-10 ml-10 mt-8">
-        <div>
-           
-            <div class=" sell flex justify-center items-center flex-col">
-                <h1>Sell your pets</h1>
-                <img src="./img/dog_13777935.png"> 
-                 <a href="./services/sell"><button class="btn">click here</button></a>
-            </div>
-            
-          
-        </div>
-        <div>
-           
-            <div class=" transport flex justify-center items-center flex-col">
-                <h1>Transport your pets</h1>
-                <img src="./img/van_4634743.png"> 
-                 <a href="transport"><button class="btn">click here</button></a>
-            </div>
-            
-          
-        </div>
-        <div>
-           
-            <div class=" help flex justify-center items-center flex-col">
-                <h1>Help</h1>
-                <img src="./img/customer-support_2951105.png"> 
-                 <a href="./services/transport"><button class="btn">click here</button></a>
-            </div>
-            
-          
-        </div>
-      </section>
    
-        
     <section id="service"class="section1  ">
 
             <div class="section1_head ">
-                <h1 class="">Transport Your Pets</h1>
+                <h1 class="">Transport Your<span class="section1_head_span">Pets</span></h1>
                 <p>
 
-                    At Petago, we ensure safe and comfortable transport for your pets and farm animals, treating them like family throughout their journey.
+                    At Petago, we ensure safe and comfortable  transport for  your <span class="section1_p_span">pets and farm animals,</span> treating them like family throughout their journey.
                 </p>
-                <!-- new button added  -->
+                <p><i class="uil uil-check check"></i>we offers you safe transportation</p>
+                <p><i class="uil uil-check check"></i>24 housr support </p>
+                <p><i class="uil uil-check check"></i>you can track ypur order</p>
                 <button class="section1_btn">
                    <a href="">Transport</a>
                 </button>
@@ -105,13 +75,20 @@
        
               
     </section>
-  
+    <section class="section2">
+        <div class="section2">
+             We Offers You
+        </div>
+        <div class="section2">
+            <img src="">
+        </div>
+    </section>
     <!-- section 3 -->
   
     </div>
     <footer class="footer text-center">
-      <h1>©️petago</h1>  
-    </footer>
+        <h1>©️petago</h1>  
+      </footer>
 </main>
 
 <script src="./index.js">

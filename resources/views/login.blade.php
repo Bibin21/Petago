@@ -7,9 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="css/login_style.css">
+
+    <link rel="stylesheet" href="/Petago/public/src/output.css"> 
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
 </head>
 <body>
+<div class="hd">
+        <nav class="nav font-bold">
+            <i class="uil uil-bars navOpenBtn"></i>
+            <a href="#" class="logo "><h3 class="  font-bold">PetaGo</h3></a>
+    
+            <ul class="nav-links">
+                <i class="uil uil-times navCloseBtn"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="./login">Login</a></li>
+            </ul>
+         <button>
+            <i class="uil uil-user" style="color: aliceblue; font-size: 1.6rem;" ></i>
+         </button>
+          
+            
+        </nav>
+    </div>
 
        <div class="signin">
        <div id="ssignin">
